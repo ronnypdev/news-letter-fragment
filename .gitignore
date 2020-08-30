@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+config.yml
+node_modules/
+package-lock.json
+package.json
+prepros-6.config
+prepros.config
