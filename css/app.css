@@ -5755,6 +5755,12 @@ p {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 768px) {
+  .col-flex-1 {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 
 .underline {
   border-bottom: 1px solid #cccccc;

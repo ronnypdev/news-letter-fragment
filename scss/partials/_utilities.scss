@@ -7,6 +7,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include mobile {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .underline {

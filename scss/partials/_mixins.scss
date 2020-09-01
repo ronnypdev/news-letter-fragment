@@ -21,3 +21,9 @@
   -moz-osx-font-smoothing: inherit;
   text-align: left;
 }
+
+@mixin mobile {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
