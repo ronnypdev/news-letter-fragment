@@ -12,6 +12,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin-bottom: 48px;
 
   .radio {
     position: absolute;
@@ -25,8 +26,8 @@
     left: 0;
     height: 40px;
     width: 40px;
-    background-color: #eeeeee;
-    border: 1px solid #cccccc;
+    background-color: $light-grey;
+    border: 1px solid $darker-grey;
     border-radius: 50%;
   }
   &:hover .radio ~ .checkmark {
