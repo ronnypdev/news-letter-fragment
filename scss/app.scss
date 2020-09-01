@@ -1,1 +1,24 @@
+/**
+====================================
+    ==> Main Partial <==
+====================================
+*/
+// Reset
+@import './partials/reset';
+
+// Config
 @import './partials/variables';
+@import './partials/functions';
+@import './partials/mixins';
+
+//Base
+@import './partials/base';
+
+//Newsletter Component
+@import './partials/newsletters';
+
+//Radio button Component
+@import './partials/radiobutton';
+
+// Utilities
+@import './partials/utilities';

@@ -1,0 +1,59 @@
+/**
+====================================
+    ==> Newsletters Partial <==
+====================================
+*/
+.newsletters {
+  background-color: $white;
+  border-radius: 5px;
+  padding: 20px;
+
+  #{&}__blurb {
+    height: 100%;
+    margin-left: 25px;
+  }
+
+  #{&}__title,
+  #{&}__description {
+    text-align: center;
+  }
+
+  #{&}__title {
+    margin-bottom: 10px;
+  }
+
+  #{&}__description {
+    margin-bottom: 50px;
+  }
+
+  #{&}__sub-title {
+    font-weight: 700;
+    color: $purple;
+    font-size: em(20px);
+    &:hover {
+      color: $purple;
+    }
+  }
+
+  #{&}__excerpt {
+    margin-top: 20px;
+  }
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0px -13px 7px rgba(167, 167, 167, 0.2);
+  padding-top: 25px;
+  padding-bottom: 13px;
+  background-color: #ffffff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  .form {
+    padding: 10px;
+    text-align: center;
+  }
+}
