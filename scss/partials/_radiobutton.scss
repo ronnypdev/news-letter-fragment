@@ -1,0 +1,55 @@
+/**
+====================================
+    ==> Radio Button Partial <==
+====================================
+*/
+.radio-label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  padding: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  .radio {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    border-radius: 50%;
+  }
+  &:hover .radio ~ .checkmark {
+    border: 1px solid $purple;
+  }
+
+  & .radio:checked ~ .checkmark {
+    border: 1px solid $purple;
+  }
+
+  .checkmark:after {
+    content: '✔';
+    position: absolute;
+    display: none;
+  }
+  & .radio:checked ~ .checkmark:after {
+    display: block;
+    left: 10px;
+    top: 0px;
+  }
+
+  & .checkmark:after {
+    font-size: em(24px);
+    color: $purple;
+  }
+}
