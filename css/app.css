@@ -6851,6 +6851,10 @@ p {
 .button--blue:hover {
   color: #ffffff;
 }
+.button--blue:focus {
+  border-color: #4292f4;
+  color: #ffffff;
+}
 
 .checkbox--label {
   display: inline-block;

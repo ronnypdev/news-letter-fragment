@@ -33,6 +33,11 @@
   &:hover {
     color: $white;
   }
+
+  &:focus {
+    border-color: $purple;
+    color: $white;
+  }
 }
 
 .checkbox--label {
